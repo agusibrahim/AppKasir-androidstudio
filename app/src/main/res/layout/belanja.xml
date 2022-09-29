@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:id="@+id/kor">
 
-	<com.agusibrahim.appkasir.tabelBelanjaan
+	<com.agusibrahim.appkasir.TabelBelanjaan
 		xmlns:table="http://schemas.android.com/apk/res-auto"
 		android:id="@+id/belanjaan"
 		android:layout_width="match_parent"
@@ -17,14 +18,15 @@
 	<include layout="@layout/totalsheets"
 		android:id="@+id/bottomSheet"
 	/>
-	<android.support.design.widget.FloatingActionButton
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
 		android:id="@+id/fab_shopping"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		app:layout_anchorGravity="top|right|end"
 		android:layout_margin="20dp"
 		app:layout_anchor="@id/bottomSheet"
-		android:src="@drawable/ic_basket" />
+		android:src="@drawable/ic_basket"
+		tools:ignore="ContentDescription" />
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
