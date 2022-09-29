@@ -7,7 +7,7 @@
 	android:paddingLeft="10dp"
 	android:paddingRight="10dp">
 
-	<android.support.design.widget.TextInputLayout
+	<com.google.android.material.textfield.TextInputLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="15dp">
@@ -20,7 +20,7 @@
 			android:id="@+id/namaproduk"
 			android:singleLine="true"/>
 
-	</android.support.design.widget.TextInputLayout>
+	</com.google.android.material.textfield.TextInputLayout>
 
 	<RelativeLayout
 		android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
 			android:id="@+id/produkdlgImageButton1"
 			android:layout_alignParentRight="true"/>
 
-		<android.support.design.widget.TextInputLayout
+		<com.google.android.material.textfield.TextInputLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_toLeftOf="@id/produkdlgImageButton1"
@@ -48,11 +48,11 @@
 				android:inputType="number"
 				android:id="@+id/kodeproduk"/>
 
-		</android.support.design.widget.TextInputLayout>
+		</com.google.android.material.textfield.TextInputLayout>
 
 	</RelativeLayout>
 
-	<android.support.design.widget.TextInputLayout
+	<com.google.android.material.textfield.TextInputLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content">
 
@@ -64,9 +64,9 @@
 			android:hint="Harga"
 			android:id="@+id/harga"/>
 
-	</android.support.design.widget.TextInputLayout>
+	</com.google.android.material.textfield.TextInputLayout>
 
-	<android.support.design.widget.TextInputLayout
+	<com.google.android.material.textfield.TextInputLayout
 		android:layout_width="100dp"
 		android:layout_height="wrap_content">
 
@@ -78,7 +78,7 @@
 			android:hint="Stok"
 			android:id="@+id/stok"/>
 
-	</android.support.design.widget.TextInputLayout>
+	</com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>
 
